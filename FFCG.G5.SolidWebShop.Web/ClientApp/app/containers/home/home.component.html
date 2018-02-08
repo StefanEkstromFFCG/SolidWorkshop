@@ -1,0 +1,52 @@
+<h1>{{ title }}</h1>
+
+<blockquote>
+  <strong>Det kommer bli så kul att bygga det här!</strong>
+  <br> Så kul...
+  <br><br>
+</blockquote>
+
+<div class="row">
+  <div class="col-lg-6">
+    <h2>{{ 'HOME_FEATURE_LIST_TITLE' | translate }} </h2>
+    <ul>
+      <li>ASP.NET Core 2.0</li>
+      <li>
+        Angular 4.* front-end UI framework
+        <ul>
+          <li>Angular Universal</li>
+          <li>AoT (Ahead-of-time) production compilation</li>
+        </ul>
+      </li>
+      <li>
+        TypeScript 2.*
+      </li>
+      <li>
+        Webpack
+        <ul>
+          <li>Hot Module Reloading</li>
+          <li>Tree-shaking</li>
+        </ul>
+      </li>
+
+      <li>Bootstrap (ngx-bootstrap) : Bootstrap that can render on the server.</li>
+      <li>Unit testing via karma & jasmine</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-12">
+
+    <h2> {{ 'SWITCH_LANGUAGE' | translate }}</h2>
+
+    <button class="btn btn-default" (click)="setLanguage('en')">
+        <span class="flag-icon flag-icon-us"></span>  {{ 'ENGLISH' | translate }}
+    </button>
+
+    <button class="btn btn-default" (click)="setLanguage('sv')">
+        <span class="flag-icon flag-icon-se"></span> {{ 'SWEDISH' | translate }}
+    </button>
+
+  </div>
+</div>
