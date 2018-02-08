@@ -299,3 +299,12 @@ __pycache__/
 
 
 # End of https://www.gitignore.io/api/visualstudio
+
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history
