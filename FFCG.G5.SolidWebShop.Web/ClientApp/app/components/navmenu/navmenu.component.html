@@ -29,6 +29,21 @@
             <span class='glyphicon glyphicon-user'></span> Rest API Demo
           </a>
         </li>
+        <li [routerLinkActive]="['link-active']" (click)="collapseMenu()">
+          <a [routerLink]="['/category-tech']">
+            <span class='glyphicon glyphicon-user'></span> Tech
+          </a>
+        </li>
+        <li [routerLinkActive]="['link-active']" (click)="collapseMenu()">
+          <a [routerLink]="['/category-food']">
+            <span class='glyphicon glyphicon-user'></span> Food
+          </a>
+        </li>
+        <li [routerLinkActive]="['link-active']" (click)="collapseMenu()">
+          <a [routerLink]="['/category-users']">
+            <span class='glyphicon glyphicon-user'></span> Clothing
+          </a>
+        </li>
         <!--<li [routerLinkActive]="['link-active']" (click)="collapseMenu()">
           <a [routerLink]="['/ngx-bootstrap']">
             <span class='glyphicon glyphicon-th-large'></span> ngx-Bootstrap demo

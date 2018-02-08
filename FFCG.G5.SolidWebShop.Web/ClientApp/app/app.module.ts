@@ -22,6 +22,7 @@ import { LinkService } from './shared/link.service';
 import { UserService } from './shared/user.service';
 import { ORIGIN_URL } from './shared/constants/baseurl.constants';
 import { TransferHttpModule } from '../modules/transfer-http/transfer-http.module';
+import { TechComponent } from './containers/tech/tech.component'
 
 export function createTranslateLoader(http: Http, baseHref) {
     // Temporary Azure hack
@@ -41,7 +42,8 @@ export function createTranslateLoader(http: Http, baseHref) {
         UserDetailComponent,
         HomeComponent,
         NotFoundComponent,
-        NgxBootstrapComponent
+        NgxBootstrapComponent,
+        TechComponent
     ],
     imports: [
         CommonModule,
@@ -69,6 +71,17 @@ export function createTranslateLoader(http: Http, baseHref) {
                 data: {
                     title: 'Homepage',
                     meta: [{ name: 'description', content: 'This is an example Description Meta tag!' }],
+                    links: [
+                        { rel: 'canonical', href: 'http://blogs.example.com/blah/nice' },
+                        { rel: 'alternate', hreflang: 'es', href: 'http://es.example.com/' }
+                    ]
+                }
+            },
+            {
+                path: 'category-tech', component: TechComponent,
+                data: {
+                    title: 'Cateogory tech',
+                    meta: [{ name: 'description', content: 'Tech products go here.' }],
                     links: [
                         { rel: 'canonical', href: 'http://blogs.example.com/blah/nice' },
                         { rel: 'alternate', hreflang: 'es', href: 'http://es.example.com/' }
