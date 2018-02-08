@@ -309,4 +309,4 @@ __pycache__/
 !.vscode/extensions.json
 .history
 
-wwwroot/dist/*
+wwwroot/dist
