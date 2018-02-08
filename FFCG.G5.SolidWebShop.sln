@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.G5.SolidWebShop.Domain", "FFCG.G5.SolidWebShop\FFCG.G5.SolidWebShop.Domain.csproj", "{DB762801-DA7C-4EBD-9518-2BE6C21BE694}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.G5.SolidWebShop.Domain", "FFCG.G5.SolidWebShop.Domain\FFCG.G5.SolidWebShop.Domain.csproj", "{DB762801-DA7C-4EBD-9518-2BE6C21BE694}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FFCG.G5.SolidWebShop.Domain.Tests", "FFCG.G5.SolidWebShop.Domain.Tests\FFCG.G5.SolidWebShop.Domain.Tests.csproj", "{342B250D-27BF-4261-BE75-3C6944A343E5}"
 EndProject

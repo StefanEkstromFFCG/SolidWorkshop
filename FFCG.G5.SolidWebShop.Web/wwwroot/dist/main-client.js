@@ -85,7 +85,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "78780125ce84e4849804"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "b498d1b2cbef03871c2d"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -810,7 +810,7 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-module.exports = vendor_43264e5c352e2d115e4b;
+module.exports = vendor_d713dd8e5c4d61efe610;
 
 /***/ }),
 /* 1 */
@@ -15234,7 +15234,7 @@ exports = module.exports = __webpack_require__(21)(false);
 
 
 // module
-exports.push([module.i, ".selected {\r\n  background-color: #CFD8DC !important;\r\n  color: white;\r\n}\r\n\r\n.users {\r\n  margin: 0 0 2em 0;\r\n  list-style-type: none;\r\n  padding: 0;\r\n  width: 15em;\r\n}\r\n\r\n  .users li {\r\n    cursor: pointer;\r\n    position: relative;\r\n    left: 0;\r\n    background-color: #EEE;\r\n    margin: .5em;\r\n    padding: .3em 0;\r\n    height: 2.4em;\r\n    border-radius: 4px;\r\n    width: 300px;\r\n  }\r\n\r\n    .users li:hover {\r\n      color: #607D8B;\r\n      background-color: #DDD;\r\n      left: .1em;\r\n    }\r\n\r\n    .users li.selected:hover {\r\n      background-color: #BBD8DC !important;\r\n      color: white;\r\n    }\r\n\r\n  .users .text {\r\n    position: relative;\r\n    top: -3px;\r\n  }\r\n\r\n  .users .badge {\r\n    display: inline-block;\r\n    font-size: small;\r\n    color: white;\r\n    padding: 0.8em 0.7em 0 0.7em;\r\n    background-color: #607D8B;\r\n    line-height: 1em;\r\n    position: relative;\r\n    left: -1px;\r\n    top: -4px;\r\n    height: 2.5em;\r\n    margin-right: .8em;\r\n    border-radius: 4px 0 0 4px;\r\n  }\r\nbutton.delete {\r\n  background-color: #eee;\r\n  border: none;\r\n  padding: 5px 10px;\r\n  border-radius: 4px;\r\n  float: right;\r\n  margin-top: 2px;\r\n  margin-right: .8em;\r\n  background-color: gray !important;\r\n  color: white;\r\n}\n", ""]);
+exports.push([module.i, ".selected {\r\n  background-color: #CFD8DC !important;\r\n  color: white;\r\n}\r\n\r\n.users {\r\n  margin: 0 0 2em 0;\r\n  list-style-type: none;\r\n  padding: 0;\r\n  width: 15em;\r\n}\r\n\r\n  .users li {\r\n    cursor: pointer;\r\n    position: relative;\r\n    left: 0;\r\n    background-color: #EEE;\r\n    margin: .5em;\r\n    padding: .3em 0;\r\n    height: 2.4em;\r\n    border-radius: 4px;\r\n    width: 300px;\r\n  }\r\n\r\n    .users li:hover {\r\n      color: #607D8B;\r\n      background-color: #DDD;\r\n      left: .1em;\r\n    }\r\n\r\n    .users li.selected:hover {\r\n      background-color: #BBD8DC !important;\r\n      color: white;\r\n    }\r\n\r\n  .users .text {\r\n    position: relative;\r\n    top: -3px;\r\n  }\r\n\r\n  .users .badge {\r\n    display: inline-block;\r\n    font-size: small;\r\n    color: white;\r\n    padding: 0.8em 0.7em 0 0.7em;\r\n    background-color: #607D8B;\r\n    line-height: 1em;\r\n    position: relative;\r\n    left: -1px;\r\n    top: -4px;\r\n    height: 2.5em;\r\n    margin-right: .8em;\r\n    border-radius: 4px 0 0 4px;\r\n  }\r\nbutton.delete {\r\n  background-color: #eee;\r\n  border: none;\r\n  padding: 5px 10px;\r\n  border-radius: 4px;\r\n  float: right;\r\n  margin-top: 2px;\r\n  margin-right: .8em;\r\n  background-color: gray !important;\r\n  color: white;\r\n}\r\n", ""]);
 
 // exports
 

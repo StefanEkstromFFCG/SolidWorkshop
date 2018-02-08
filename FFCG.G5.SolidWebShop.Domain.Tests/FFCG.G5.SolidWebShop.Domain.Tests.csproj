@@ -60,7 +60,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\FFCG.G5.SolidWebShop\FFCG.G5.SolidWebShop.Domain.csproj">
+    <ProjectReference Include="..\FFCG.G5.SolidWebShop.Domain\FFCG.G5.SolidWebShop.Domain.csproj">
       <Project>{db762801-da7c-4ebd-9518-2be6c21be694}</Project>
       <Name>FFCG.G5.SolidWebShop.Domain</Name>
     </ProjectReference>
