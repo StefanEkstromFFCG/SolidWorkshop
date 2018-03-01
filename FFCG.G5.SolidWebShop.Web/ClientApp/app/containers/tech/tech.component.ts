@@ -1,4 +1,7 @@
-import { Component } from '@angular/core';
+import { Component } from '@angular/core'
+import { IProduct } from '../../models/product'
+import { ProductService } from '../../shared/product.service'
+import { ShoppingcartService } from '../../shared/shoppingcart.service'
 
 @Component({
     selector: 'tech',
@@ -10,49 +13,13 @@ export class TechComponent {
 
   public products: [IProduct];
 
-  constructor() {
-    this.products = [
-      {
-        name: 'Cat',
-        imageUrl: 'https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-4-57b30a939dff5__605.jpg',
-        price: 100,
-        description: 'This is a cute cat.'
-      },
-      {
-        name: 'Cat',
-        imageUrl: 'https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-4-57b30a939dff5__605.jpg',
-        price: 100,
-        description: 'This is a cute cat.'
-      },
-      {
-        name: 'Cat',
-        imageUrl: 'https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-4-57b30a939dff5__605.jpg',
-        price: 100,
-        description: 'This is a cute cat.'
-      },
-      {
-        name: 'Cat',
-        imageUrl: 'https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-4-57b30a939dff5__605.jpg',
-        price: 100,
-        description: 'This is a cute cat.'
-      },
-      {
-        name: 'Cat',
-        imageUrl: 'https://static.boredpanda.com/blog/wp-content/uploads/2016/08/cute-kittens-4-57b30a939dff5__605.jpg',
-        price: 100,
-        description: 'This is a cute cat.'
-      }
-    ]
+  constructor(private productService: ProductService, private shoppingCartService: ShoppingcartService) {
+    productService.getProducts().subscribe(products => {
+      this.products = products;
+    })
   }
 
   addToCart(product: IProduct) {
-    console.log('Added ' + product.name + ' to cart.')
+    this.shoppingCartService.addToCart(product)
   }
-}
-
-interface IProduct {
-  name: String;
-  price: Number;
-  description: String;
-  imageUrl: String;
 }

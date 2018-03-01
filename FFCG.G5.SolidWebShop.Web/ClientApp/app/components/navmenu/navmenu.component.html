@@ -44,6 +44,12 @@
             <span class='glyphicon glyphicon-user'></span> Clothing
           </a>
         </li>
+        <li [routerLinkActive]="['link-active']">
+          <a [routerLink]="['/cart']">
+            <span class='glyphicon glyphicon-th-list'></span> Shopping Cart
+            <span class="badge products-badge" *ngIf="numberOfProductsAdded > 0">{{ numberOfProductsAdded }}</span>
+          </a>
+        </li>
         <!--<li [routerLinkActive]="['link-active']" (click)="collapseMenu()">
           <a [routerLink]="['/ngx-bootstrap']">
             <span class='glyphicon glyphicon-th-large'></span> ngx-Bootstrap demo
